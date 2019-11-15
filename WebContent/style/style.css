@@ -1,0 +1,102 @@
+.logo {
+	
+	width: 40px;
+        height:40px;
+        
+}
+
+
+.header {
+	margin: 0;
+	min-height: 70px;
+	color: white;
+	background-color: #004080;
+	top: 0;
+	width: 100%;
+}
+.header-img {
+	margin: 10;
+	height: 30px;
+	top: 10;
+        padding:20px ;
+	width: 30px;
+}
+
+.header-itemleft {
+	padding-left: 25px;
+	float: left;
+}
+
+.header-itemright {
+	padding-right: 80px;
+	float: right;
+        color:white;
+        	
+}
+
+
+
+
+.body-main {
+	width: 80%;
+	margin-left: 5%;
+        padding:2px;
+}
+
+.body-main th {
+	font-weight: bold;
+}
+
+
+
+
+.footer {
+	margin: 0;
+	min-height: 25px;
+	color: black;
+	background-color: #a6a6a6;
+	bottom: 0;
+	position: absolute;
+	width: 100%;
+	font-family: arial;
+}
+
+.alert {
+  padding: 10px;
+  color: #00cc66;
+  display: block;
+}
+
+
+.text-align-left {
+   text-align:left ;
+}
+
+
+.text-align-right {
+   text-align:right ;
+}
+
+#thhead_price {
+   text-align:right ;
+}
+#thhead_name {
+   text-align:left ;
+}
+
+
+
+	
+	button[type="submit"] {
+		padding-top: 1px;
+		padding-bottom: 15px;
+		
+		padding-left: 35px;
+		padding-right: 35px;
+		
+		background-color: #004080;
+		
+		
+		color: white;
+                height :25px;
+	}

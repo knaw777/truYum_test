@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Edit Menu Item</title>
+<script type="text/javascript" src="js/script.js"></script>  
+<link rel="stylesheet" href="style/style.css">
+<link rel="stylesheet" href="style/editMenuItemStyle.css">
+
+</head>
+<body>
+	
+	<header class="header container-fluid">
+		<h2 class="header-itemleft">truYum</h2>
+                <img class="header-img" src="images/truYumlogo.jpg"></h2>
+	       <a class="header-itemright" href="menu-item-list-admin.html">Menu</a>
+	</header>
+	
+	<form name ="editMenuForm" action="#" method="post" onsubmit="return validateMenuItemForm()">
+	<section class="body-main" style="overflow-x:auto;">
+		<h1>Edit Menu Item</h1>
+		
+			<table style="width: 100%;" id="editmenuitem">
+				<tr><th colspan="4"><label for ="mname">Name</label></th></tr>
+				<tr><td colspan="4" style="padding-right: 0;"><input type="text" id = "mname" name="mname" style="width: 98%;" value=""></td></tr>
+			        <tr>
+					<th style="padding-right: 0;"><label for ="price">Price (Rs.)</label></th>
+					<th><label for ="active">Active</label></th>
+					<th><label for ="launchDate">Date of Launch</label></th>
+					<th><label for ="category">Category</label></th>
+				</tr>
+				
+				<tr>
+					<td style="padding-right: 0;"><input type="text"  id ="price" name="price" value=""></td>
+					<td><input type="radio" id="active" name="active" value="yes" >Yes&nbsp;&nbsp;<input type="radio" name="active" value="no" >No</td>
+					<td><input type="date" id ="launchDate" name="launchdate"></td>
+					<td>
+						<select name="category" id ="category">
+                                                        <option value="Default" >--Select One--</option> 
+							<option value="Starters" >Starters</option>
+							<option value="Main Course" >Main Course</option>
+							<option value="Dessert" >Dessert</option>
+							<option value="Drinks" >Drinks</option>
+						</select>
+					</td>
+				</tr>
+				
+				<tr>
+					<th colspan="4"><input type="checkbox" id="freeDelivery" name="freeDelivery" value="Yes"  >&nbsp;<label for ="freeDelivery">Free Delivery</label></th>
+				</tr>
+				
+				<tr>
+					<th colspan="4"><button type="submit" ><b>Save</b></button></th>
+				</tr>
+				
+			</table>
+		
+	</section>
+</form>
+	
+	
+		<footer class="footer container-fluid">
+		<p>&nbsp;&nbsp;Copyright &copy; 2019</p>
+	</footer>
+	
+</body>
+</html>

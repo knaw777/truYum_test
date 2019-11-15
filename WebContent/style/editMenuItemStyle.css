@@ -1,0 +1,25 @@
+
+	.body-main td {
+		text-align: left;
+	}
+	
+	.body-main th {
+		padding-top: 10px;
+                text-align: left;
+	}
+	button[type="submit"] {
+		padding-top: 1px;
+		padding-bottom: 15px;
+		
+		padding-left: 35px;
+		padding-right: 35px;
+		
+		background-color: #004080;
+		
+		
+		color: white;
+                height :25px;
+	}
+		
+	
+	
